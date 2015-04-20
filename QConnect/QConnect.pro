@@ -6,7 +6,7 @@
 
 QT       += core gui network
 
-RC_ICONS += app_icon.ico
+RC_FILE  = QConnect.rc
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -27,3 +27,5 @@ HEADERS  += MainWindow.h \
 FORMS    += MainWindow.ui \
     TCPServer.ui \
     TCPClient.ui
+
+RESOURCES += resources.qrc
